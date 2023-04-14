@@ -50,10 +50,16 @@ class WelcomeViewController: UIViewController {
         
     }
     private func handleSingIn(success: Bool) {
-        // kullanıcı oturumu açılacak
-        
-        
-        
+         // kullanıcı oturumu açılacak
+        guard success else {
+            let alert = UIAlertController(title: "OPPSS", message: "Bişeyler yanlış gidiyor.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
+            present(alert,animated: true)
+            return
+        }
+        let mainAppTabBarVC = TabBarViewController()
+        mainAppTabBarVC.modalPresentationStyle = .fullScreen
+        present(mainAppTabBarVC,animated: true)
         
     }
 }
