@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72EB60F42A0D12100015E025 /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB60F32A0D12100015E025 /* SettingsModels.swift */; };
 		72FBB64B29E93D27002DEBF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBB64A29E93D27002DEBF9 /* AppDelegate.swift */; };
 		72FBB64D29E93D27002DEBF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBB64C29E93D27002DEBF9 /* SceneDelegate.swift */; };
 		72FBB64F29E93D27002DEBF9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBB64E29E93D27002DEBF9 /* HomeViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72EB60F32A0D12100015E025 /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
 		72FBB64729E93D27002DEBF9 /* SpotifyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FBB64A29E93D27002DEBF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72FBB64C29E93D27002DEBF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				72FBB68429E944CA002DEBF9 /* Artist.swift */,
 				72FBB68629E944D9002DEBF9 /* UserProfile.swift */,
 				72FBB68A29E959C9002DEBF9 /* AuthResponse.swift */,
+				72EB60F32A0D12100015E025 /* SettingsModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				72FBB68929E95181002DEBF9 /* Extensions.swift in Sources */,
 				72FBB67729E9443D002DEBF9 /* PlaylistViewController.swift in Sources */,
 				72FBB68529E944CA002DEBF9 /* Artist.swift in Sources */,
+				72EB60F42A0D12100015E025 /* SettingsModels.swift in Sources */,
 				72FBB64D29E93D27002DEBF9 /* SceneDelegate.swift in Sources */,
 				72FBB67529E94427002DEBF9 /* PlayerViewController.swift in Sources */,
 				72FBB67929E9445C002DEBF9 /* SearchResultViewController.swift in Sources */,

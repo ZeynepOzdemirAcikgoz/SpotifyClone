@@ -57,6 +57,7 @@ class WelcomeViewController: UIViewController {
             present(alert,animated: true)
             return
         }
+        
         let mainAppTabBarVC = TabBarViewController()
         mainAppTabBarVC.modalPresentationStyle = .fullScreen
         present(mainAppTabBarVC,animated: true)
